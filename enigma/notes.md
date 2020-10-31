@@ -40,6 +40,7 @@
     <li>A pawl on the rotor to the left of that one would catch on this notch when the rotor was at that character's position</li>
     <li>This would allow the left rotor to rotate with the right one.</li>
   </ul>
+  <li>This stepping occurs <strong>before</strong> a letter is translated.</li>
 </ul>
 <h3>The Reflector</h3>
 <ul>
@@ -57,6 +58,10 @@
   <li>This permutation was configured ahead of time and did not change like the rotors</li>
 </ul>
 
+<h2>Program Input and Data Representation</h2>
+
+<h2>
+</h2>
 <h3>Permutation Representation</h3>
 
 <p>We will represent permutations using <em>cycle representation</em>
@@ -73,7 +78,8 @@
 
 <p>The inverse of these cycles is the inverse permutation. Just using the first cycle as an example, the inverse would be U maps to R, R to X, X to Q, ..., A to U.</p>
 
-<p>The following table shows the rotors and reflectors we will use. Remember that these are preconfigured, we will only be manually setting the rotor configuration, the configuration of the plugboard, and possibly the position of the notches on the alphabet ring</p>
+<p>The following table shows an example of a set of rotors and reflectors. These were the
+   rotors used by the German Navy.</p>
 
 | Rotor       | Permutation (as cycles)                                      | Notch   |
 | ----------- | ------------------------------------------------------------ | ------- |
@@ -89,3 +95,36 @@
 | Rotor Gamma | (AFNIRLBSQWVXGUZDKMTPCOYJHE)                                 |         |
 | Reflector B | (AE) (BN) (CK) (DQ) (FU) (GY) (HW) (IJ) (LO) (MP) (RX) (SZ) (TV) |         |
 | Reflector C | (AR) (BD) (CO) (EJ) (FN) (GT) (HK) (IV) (LM) (PW) (QZ) (SX) (UY) |         |
+
+<h2>Enigma Machine Configuration</h2>
+
+<h3>Initial Configuration</h3>
+
+<p>An input file will set up the basic configuration of the machine. It must have the following format.</p>
+
+<ul>
+  <li>A string representing the alphabet to be used by the machine</li>
+  <li>The number of rotors and the number of rotors that will move. Any non-moving rotors
+      will be positioned to the left of moving rotors. These numbers will include the     reflectors, which do not move and will be positioned all the way to the left.</li>
+  <li>Any number of rotor descriptions
+  <ul>
+    <li>A name for the rotor with no spaces</li>
+    <li>Either N, M, or R, indicating whether the rotor is a non-moving rotor, 
+        a moving rotor, or a reflector respectively.</li>
+    <li>Letter(s) indicating where the notch(es) of that rotor should be</li>
+    <li>The cycle representation of that rotors permutation.</li>
+  </ul>
+  </li>
+</ul>
+
+<h3>Program input file</h3>
+
+```
+* B Beta III IV I AXLE (YF) (ZH)
+```
+
+This shows that the rotors to be used are B, Beta, III, IV, and I position left to right in that order.
+
+The letters in AXLE tell us the initial configuration of the rotors.
+
+The (YF) (ZH) tells us the configuration of the plugboard, meaning that the letters Y and F are swapped
