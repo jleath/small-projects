@@ -75,67 +75,17 @@
 
 <p>The following table shows the rotors and reflectors we will use. Remember that these are preconfigured, we will only be manually setting the rotor configuration, the configuration of the plugboard, and possibly the position of the notches on the alphabet ring</p>
 
-| <table> |                                                              |
-| ------- | ------------------------------------------------------------ |
-|         | <tr>                                                         |
-|         | <th><strong>Rotor</strong></th>                              |
-|         | <th><strong>Permutation</strong> (as cycles)</th>            |
-|         | <th><strong>Notch</strong></th>                              |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor I</td>                                |
-|         | <td align="left">(AELTPHQXRU) (BKNW) (CMOY) (DFG) (IV) (JZ) (S)</td> |
-|         | <td align="left">Q</td>                                      |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor II</td>                               |
-|         | <td align="left">(FIXVYOMW) (CDKLHUP) (ESZ) (BJ) (GR) (NT) (A) (Q)</td> |
-|         | <td align="left">E</td>                                      |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor III</td>                              |
-|         | <td align="left">(ABDHPEJT) (CFLVMZOYQIRWUKXSG) (N)</td>     |
-|         | <td align="left">V</td>                                      |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor IV</td>                               |
-|         | <td align="left">(AEPLIYWCOXMRFZBSTGJQNH) (DV) (KU)</td>     |
-|         | <td align="left">J</td>                                      |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor V</td>                                |
-|         | <td align="left">(AVOLDRWFIUQ)(BZKSMNHYC) (EGTJPX)</td>      |
-|         | <td align="left">Z</td>                                      |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor VI</td>                               |
-|         | <td align="left">(AJQDVLEOZWIYTS) (CGMNHFUX) (BPRK)</td>     |
-|         | <td align="left">Z and M</td>                                |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor VII</td>                              |
-|         | <td align="left">(ANOUPFRIMBZTLWKSVEGCJYDHXQ)</td>           |
-|         | <td align="left">Z and M</td>                                |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor VIII</td>                             |
-|         | <td align="left">(AFLSETWUNDHOZVICQ) (BKJ) (GXY) (MPR)</td>  |
-|         | <td align="left">Z and M</td>                                |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor Beta</td>                             |
-|         | <td align="left">(ALBEVFCYODJWUGNMQTZSKPR) (HIX)</td>        |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Rotor Gamma</td>                            |
-|         | <td align="left">(AFNIRLBSQWVXGUZDKMTPCOYJHE)</td>           |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Reflector B</td>                            |
-|         | <td align="left">(AE) (BN) (CK) (DQ) (FU) (GY) (HW) (IJ) (LO) (MP) (RX) (SZ) (TV)</td> |
-|         | </tr>                                                        |
-|         | <tr>                                                         |
-|         | <td align="left">Reflector C</td>                            |
-|         | <td align="left">(AR) (BD) (CO) (EJ) (FN) (GT) (HK) (IV) (LM) (PW) (QZ) (SX) (UY)</td> |
-|         | </tr>                                                        |
-|         | </table>                                                     |
+| Rotor       | Permutation (as cycles)                                      | Notch   |
+| ----------- | ------------------------------------------------------------ | ------- |
+| Rotor I     | (AELTPHQXRU) (BKNW) (CMOY) (DFG) (IV) (JZ) (S                | Q       |
+| Rotor II    | (FIXVYOMW) (CDKLHUP) (ESZ) (BJ) (GR) (NT) (A) (Q)            | E       |
+| Rotor III   | (ABDHPEJT) (CFLVMZOYQIRWUKXSG) (N)                           | V       |
+| Rotor IV    | (AEPLIYWCOXMRFZBSTGJQNH) (DV) (KU)                           | J       |
+| Rotor V     | (AVOLDRWFIUQ)(BZKSMNHYC) (EGTJPX)                            | Z       |
+| Rotor VI    | (AJQDVLEOZWIYTS) (CGMNHFUX) (BPRK)                           | Z and M |
+| Rotor VII   | (ANOUPFRIMBZTLWKSVEGCJYDHXQ)                                 | Z and M |
+| Rotor VIII  | (AFLSETWUNDHOZVICQ) (BKJ) (GXY) (MPR)                        | Z and M |
+| Rotor Beta  | (ALBEVFCYODJWUGNMQTZSKPR) (HIX)                              |         |
+| Rotor Gamma | (AFNIRLBSQWVXGUZDKMTPCOYJHE)                                 |         |
+| Reflector B | (AE) (BN) (CK) (DQ) (FU) (GY) (HW) (IJ) (LO) (MP) (RX) (SZ) (TV) |         |
+| Reflector C | (AR) (BD) (CO) (EJ) (FN) (GT) (HK) (IV) (LM) (PW) (QZ) (SX) (UY) |         |
