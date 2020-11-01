@@ -10,6 +10,11 @@ class MachineConfigInfo
     @rotor_slots = read_rotor_slots(config)
     @pawl_slots = read_pawl_slots(config)
     @rotors = read_rotors(config)
+    @plugboard = Plugboard.new("plugboard", @alphabet, {})
+  end
+
+  def build_plugboard(config)
+    Plugboard.new("plugboard", @alphabet, build_mapping(config))
   end
 
   private
@@ -41,7 +46,11 @@ class MachineConfigInfo
     type = ROTOR_TYPE_CODES[config[1].split('').first]
     notches = config[1].split('')[1..-1]
     mapping = build_mapping(config[2..-1])
-    Rotor.new(name, type, notches, mapping)
+    case type
+    when :moving then MovingRotor.new(name, @alphabet, mapping, notches)
+    when :non_moving then Rotor.new(name, @alphabet, mapping)
+    when :reflector then BasicTranslator.new(name, @alphabet, mapping)
+    end
   end
 
   def build_mapping(cycles)
