@@ -128,3 +128,20 @@ This shows that the rotors to be used are B, Beta, III, IV, and I position left 
 The letters in AXLE tell us the initial configuration of the rotors.
 
 The (YF) (ZH) tells us the configuration of the plugboard, meaning that the letters Y and F are swapped
+
+
+
+* Read Initial Config File and set up the Enigma Machine
+  * Read in and set alphabet instance variable
+  * Read in and set number of rotors
+  * Read in and set number of moving rotors
+  * Read in the rotor information one at a time, create a new rotor item with the following state:
+    * a name (string)
+    * whether it is a moving rotor, non-moving rotor, or a reflector (symbol)
+    * an array of characters representing notch locationsj
+    * A hash mapping characters to their substitution character based on the cycle notation
+  * Add these rotors to a rotor hash, using the rotor name as the key
+* Read in input text file
+  * install rotors in the correct position
+  * Install plugboard
+* Translate characters in input one at a time
