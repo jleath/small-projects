@@ -1,9 +1,12 @@
 load 'rotor.rb'
 
+class EnigmaError < StandardError ; end
+
 class MachineConfig
   FIRST_ROTOR_LINE = 2
   ALPHABET_LINE = 0
   ROTOR_COUNT_LINE = 1
+  CYCLE_DELIMITERS = '()'
   ROTOR_TYPE_CODES =
     { 'M' => :moving, 'N' => :non_moving, 'R' => :reflector }.freeze
   attr_reader :alphabet, :rotor_slots, :pawl_slots, :rotors, :plugboard
@@ -28,15 +31,34 @@ class MachineConfig
   private
 
   def read_alphabet(config)
-    config[ALPHABET_LINE].strip
+    alphabet = config[ALPHABET_LINE].strip
+    if alphabet.chars.uniq != alphabet.chars
+      raise EnigmaError, 'Invalid alphabet in config file: Duplicate Character'
+    end
+    alphabet
+  end
+
+  def valid_int?(val)
+    !!/^\d+$/.match(val)
   end
 
   def read_rotor_slots(config)
-    config[ROTOR_COUNT_LINE].split[0].to_i
+    num_slots = config[ROTOR_COUNT_LINE].split[0]
+    unless valid_int?(num_slots)
+      raise EnigmaError, 'Invalid roster slot count in config file'
+    end
+    num_slots.to_i
   end
 
   def read_pawl_slots(config)
-    config[ROTOR_COUNT_LINE].split[1].to_i
+    num_pawls = config[ROTOR_COUNT_LINE].split[1]
+    unless valid_int?(num_pawls)
+      raise EnigmaError, 'Invalid pawl slot count in config file'
+    end
+    if num_pawls.to_i > rotor_slots
+      raise EnigmaError, 'Pawl slot count is greater than total slot count'
+    end
+    num_pawls.to_i
   end
 
   def read_rotors(config)
@@ -64,8 +86,11 @@ class MachineConfig
   def build_mapping(cycles)
     mapping = {}
     cycles.each do |cycle|
-      cycle = cycle.delete('()').chars
+      cycle = cycle.delete(CYCLE_DELIMITERS).chars
       cycle.each_index do |index|
+        if mapping.key?(cycle[index])
+          raise EnigmaError, 'Duplicate character in cycle notation'
+        end
         mapping[cycle[index]] = cycle[(index + 1) % cycle.size]
       end
     end
@@ -73,15 +98,28 @@ class MachineConfig
   end
 
   def read_rotor_name(config)
+    if config[0].nil?
+      raise EnigmaError, 'Missing rotor name'
+    end
     config[0]
   end
 
   def read_rotor_type(config)
-    ROTOR_TYPE_CODES[config[1].split('').first]
+    type = ROTOR_TYPE_CODES[config[1].split('').first]
+    if type.nil?
+      raise EnigmaError, 'Invalid rotor type code'
+    end
+    type
   end
 
   def read_rotor_notches(config)
-    config[1].split('')[1..-1]
+    notches = config[1].split('')[1..-1]
+    notches.each do |character|
+      unless alphabet.include?(character)
+        raise EnigmaError, 'Notch value not found in alphabet' 
+      end
+    end
+    notches
   end
 end
 

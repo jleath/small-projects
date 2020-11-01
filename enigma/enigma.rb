@@ -10,6 +10,9 @@ class EnigmaMachine
   attr_reader :config, :rotors
   def initialize(config_filename)
     @config = MachineConfig.new(config_filename)
+  rescue EnigmaError => e
+    puts e.message
+    exit
   end
 
   def install_rotors(rotor_names)
@@ -39,6 +42,9 @@ class EnigmaMachine
     install_rotors(@session.rotor_names)
     configure_rotors(@session.rotor_settings)
     config.build_plugboard(@session.plugboard_settings)
+  rescue => e
+    puts e.message
+    exit
   end
 
   def translate(input_filename)
