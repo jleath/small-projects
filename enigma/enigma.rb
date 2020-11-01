@@ -1,61 +1,66 @@
-load 'machine_config_info.rb'
+load 'machine_config.rb'
 load 'rotor.rb'
 
+WORDS_PER_LINE = 5
+CHARS_PER_WORD = 5
+
 class EnigmaMachine
+  FIRST_MOVING_ROTOR_INDEX = 1
+
   attr_reader :config, :rotors
   def initialize(config_filename)
-    @config = MachineConfigInfo.new(config_filename)
+    @config = MachineConfig.new(config_filename)
   end
 
   def install_rotors(rotor_names)
     @rotors = []
-    rotor_names.each do |name|
-      @rotors << config.rotors[name]
+    rotor_names.each_with_index do |name, index|
+      curr_rotor = config.rotors[name]
+      if index < rotor_names.size - 1
+        next_rotor_name = rotor_names[index + 1]
+        next_rotor = config.rotors[next_rotor_name]
+        curr_rotor.right_rotor = next_rotor
+      end
+      @rotors << curr_rotor
     end
   end
 
-  def set_rotors(config_str)
-    rotor_index = 0
-    position_index = 0
-    while rotor_index < @rotors.size
+  def configure_rotors(config_str)
+    rotor_index = FIRST_MOVING_ROTOR_INDEX
+    config_str.chars.each do |position|
       curr_rotor = @rotors[rotor_index]
-      if curr_rotor.settable?
-        @rotors[rotor_index].position = config_str[position_index]
-        position_index += 1
-      end
+      curr_rotor.position = position
       rotor_index += 1
     end
   end
 
   def prep_for_translation(input_filename)
-    input = File.new(input_filename).readlines
-    config_line = input[0].split[1..-1]
-    rotor_names = config_line[0...config.rotor_slots]
-    rotor_settings = config_line[config.rotor_slots]
-    plugboard_settings = config_line[config.rotor_slots+1..-1]
-    install_rotors(rotor_names)
-    set_rotors(rotor_settings) 
-    @plugboard = config.build_plugboard(plugboard_settings)
-    @input = input[1..-1].join(' ')
+    @session = SessionConfig.new(input_filename, config)
+    install_rotors(@session.rotor_names)
+    configure_rotors(@session.rotor_settings)
+    config.build_plugboard(@session.plugboard_settings)
   end
 
   def translate(input_filename)
     prep_for_translation(input_filename)
     output = []
-    input = @input.delete("^#{config.alphabet}")
-    input.chars.each do |curr_char|
-      curr_char = stecker(curr_char)
-      rotate_rotors
-      intermediate = send_left(curr_char)
-      result = send_right(intermediate)
-      result = stecker(result)
+    @session.input.chars.each do |curr_char|
+      result = send_through_rotors(curr_char)
       output << result
     end
     output.join('')
   end
 
+  def send_through_rotors(char)
+    char = stecker(char)
+    rotate_rotors
+    intermediate = send_left(char)
+    result = send_right(intermediate)
+    stecker(result)
+  end
+
   def stecker(character)
-    @plugboard.transform(character)
+    config.plugboard.transform(character)
   end
 
   def send_left(character)
@@ -77,36 +82,22 @@ class EnigmaMachine
   end
 
   def rotate_rotors
-    non_pawl_slots = config.rotor_slots - config.pawl_slots
-    (non_pawl_slots...config.rotor_slots - 1).each do |index|
-      @rotors[index].rotate if @rotors[index + 1].aligned_notch?
-    end
-    @rotors[config.rotor_slots - 1].rotate
+    @rotors.each { |rotor| rotor.rotate if rotor.rotate? }
   end
 end
 
 def format_enigma_output(str)
-  words_per_line = 5
-  chars_per_word = 5
+  curr_char = 0
   words_printed = 0
-  chars_printed = 0
-  str.chars.each do |char|
-    if chars_printed == chars_per_word
-      print(' ')
-      chars_printed = 0
-      words_printed += 1
-    end
-    if words_printed == words_per_line
-      puts ''
-      words_printed = 0 
-    end
-    print char
-    chars_printed += 1
+  while curr_char < str.size
+    print str[curr_char...curr_char + CHARS_PER_WORD] + ' '
+    curr_char += CHARS_PER_WORD
+    words_printed += 1
+    puts '' if (words_printed % WORDS_PER_LINE).zero?
   end
-  puts ''
 end
 
-machine = EnigmaMachine.new("config/machine_config.txt")
-format_enigma_output(machine.translate("config/inputfile1.txt"))
+machine = EnigmaMachine.new('config/machine_config.txt')
+format_enigma_output(machine.translate('config/inputfile1.txt'))
 puts ''
-format_enigma_output(machine.translate("config/inputfile2.txt"))
+format_enigma_output(machine.translate('config/inputfile2.txt'))

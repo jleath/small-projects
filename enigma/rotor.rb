@@ -1,11 +1,13 @@
 class BasicTranslator
   attr_reader :name
+  attr_accessor :right_rotor
 
-  def initialize(name, alphabet, mapping)
+  def initialize(name, alphabet, mapping, notches = [])
     @name = name
     @alphabet = alphabet
     @mapping = mapping
     @settable = false
+    @notches = notches
   end
 
   def transform_from_right(character)
@@ -25,13 +27,21 @@ class BasicTranslator
   def settable?
     @settable
   end
+
+  def aligned_notch?
+    @notches.include?(@alphabet[@position])
+  end
+
+  def rotate?
+    false
+  end
 end
 
 class Rotor < BasicTranslator
   attr_reader :position
 
-  def initialize(name, alphabet, mapping)
-    super(name, alphabet, mapping)
+  def initialize(name, alphabet, mapping, notches = [])
+    super(name, alphabet, mapping, notches)
     @settable = true
   end
 
@@ -71,17 +81,12 @@ class Rotor < BasicTranslator
 end
 
 class MovingRotor < Rotor
-  def initialize(name, alphabet, mapping, notches)
-    super(name, alphabet, mapping)
-    @notches = notches
-  end
-
   def rotate
-    @position = (@position + 1) % @alphabet.size
+    @position = (@position + 1) % @alphabet.size if rotate?
   end
 
-  def aligned_notch?
-    @notches.include?(@alphabet[@position])
+  def rotate?
+    right_rotor.nil? || right_rotor.aligned_notch?
   end
 end
 
