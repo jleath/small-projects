@@ -8,6 +8,7 @@ class EnigmaMachine
   FIRST_MOVING_ROTOR_INDEX = 1
 
   attr_reader :config, :rotors
+
   def initialize(config_filename)
     @config = MachineConfig.new(config_filename)
   rescue EnigmaError => e
@@ -42,7 +43,7 @@ class EnigmaMachine
     install_rotors(@session.rotor_names)
     configure_rotors(@session.rotor_settings)
     config.build_plugboard(@session.plugboard_settings)
-  rescue => e
+  rescue EnigmaError => e
     puts e.message
     exit
   end

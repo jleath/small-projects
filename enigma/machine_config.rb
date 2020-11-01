@@ -1,6 +1,6 @@
 load 'rotor.rb'
 
-class EnigmaError < StandardError ; end
+class EnigmaError < StandardError; end
 
 class MachineConfig
   FIRST_ROTOR_LINE = 2
@@ -35,6 +35,7 @@ class MachineConfig
     if alphabet.chars.uniq != alphabet.chars
       raise EnigmaError, 'Invalid alphabet in config file: Duplicate Character'
     end
+
     alphabet
   end
 
@@ -47,6 +48,7 @@ class MachineConfig
     unless valid_int?(num_slots)
       raise EnigmaError, 'Invalid roster slot count in config file'
     end
+
     num_slots.to_i
   end
 
@@ -55,9 +57,11 @@ class MachineConfig
     unless valid_int?(num_pawls)
       raise EnigmaError, 'Invalid pawl slot count in config file'
     end
+
     if num_pawls.to_i > rotor_slots
       raise EnigmaError, 'Pawl slot count is greater than total slot count'
     end
+
     num_pawls.to_i
   end
 
@@ -83,6 +87,7 @@ class MachineConfig
     end
   end
 
+  # rubocop:disable Metrics/MethodLength
   def build_mapping(cycles)
     mapping = {}
     cycles.each do |cycle|
@@ -91,16 +96,19 @@ class MachineConfig
         if mapping.key?(cycle[index])
           raise EnigmaError, 'Duplicate character in cycle notation'
         end
+
         mapping[cycle[index]] = cycle[(index + 1) % cycle.size]
       end
     end
     mapping
   end
+  # rubocop:enable Metrics/MethodLength
 
   def read_rotor_name(config)
     if config[0].nil?
       raise EnigmaError, 'Missing rotor name'
     end
+
     config[0]
   end
 
@@ -109,6 +117,7 @@ class MachineConfig
     if type.nil?
       raise EnigmaError, 'Invalid rotor type code'
     end
+
     type
   end
 
@@ -116,7 +125,7 @@ class MachineConfig
     notches = config[1].split('')[1..-1]
     notches.each do |character|
       unless alphabet.include?(character)
-        raise EnigmaError, 'Notch value not found in alphabet' 
+        raise EnigmaError, 'Notch value not found in alphabet'
       end
     end
     notches
@@ -125,6 +134,7 @@ end
 
 class SessionConfig
   attr_reader :rotor_names, :rotor_settings, :plugboard_settings, :input
+
   def initialize(input_filename, machine_config)
     input = File.new(input_filename).readlines
     config_line = input[0].split[1..-1]
