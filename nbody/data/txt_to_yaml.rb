@@ -26,6 +26,7 @@ Y_POSITION_INDEX = 1
 X_VELOCITY_INDEX = 2
 Y_VELOCITY_INDEX = 3
 MASS_INDEX = 4
+OUTPUT_PATH = "./yaml_files/"
 
 def convert(filename)
   lines = File.open(filename).readlines
@@ -71,8 +72,12 @@ def output(data, filename)
   output_file.close
 end
 
+def extract_filename(filename)
+  original_file = /[^\/]+\./.match(filename).to_s[0..-2]
+end
+
 raise StandardError, "filename required" if ARGV.empty?
 filename = ARGV[0]
 data = convert(filename)
-new_filename = filename.slice(0, filename.size - 4) + '.yml'
+new_filename = OUTPUT_PATH + extract_filename(filename) + '.yml'
 output(data, new_filename)
