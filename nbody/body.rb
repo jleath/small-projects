@@ -35,6 +35,10 @@ class Body
     bodies.reduce(0.0) { |net_force, body| net_force + force_exerted_by_y(body) }
   end
 
+  def to_s
+    [x_pos, y_pos, x_vel, y_vel, mass].to_s
+  end
+
   private
 
   def x_distance(other)
