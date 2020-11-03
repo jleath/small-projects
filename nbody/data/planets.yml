@@ -1,0 +1,33 @@
+num_planets: 5
+radius: 2.50e+11
+bodies:
+  -
+    x_pos: 1.4960e+11
+    y_pos: 0.0000e+00
+    x_vel: 0.0000e+00
+    y_vel: 2.9800e+04
+    mass: 5.9740e+24
+  -
+    x_pos: 2.2790e+11
+    y_pos: 0.0000e+00
+    x_vel: 0.0000e+00
+    y_vel: 2.4100e+04
+    mass: 6.4190e+23
+  -
+    x_pos: 5.7900e+10
+    y_pos: 0.0000e+00
+    x_vel: 0.0000e+00
+    y_vel: 4.7900e+04
+    mass: 3.3020e+23
+  -
+    x_pos: 0.0000e+00
+    y_pos: 0.0000e+00
+    x_vel: 0.0000e+00
+    y_vel: 0.0000e+00
+    mass: 1.9890e+30
+  -
+    x_pos: 1.0820e+11
+    y_pos: 0.0000e+00
+    x_vel: 0.0000e+00
+    y_vel: 3.5000e+04
+    mass: 4.8690e+24
