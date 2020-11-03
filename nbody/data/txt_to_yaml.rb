@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Body
   attr_accessor :x_pos, :y_pos, :x_vel, :y_vel, :mass
   def to_s
@@ -26,11 +28,10 @@ Y_POSITION_INDEX = 1
 X_VELOCITY_INDEX = 2
 Y_VELOCITY_INDEX = 3
 MASS_INDEX = 4
-OUTPUT_PATH = "./yaml_files/"
+OUTPUT_PATH = './yaml_files/'
 
 def convert(filename)
   lines = File.open(filename).readlines
-  bodies = []
   data = DataBlob.new
 
   data.num_planets = read_num_planets(lines)
@@ -67,16 +68,17 @@ def read_radius(text_lines)
 end
 
 def output(data, filename)
-  output_file = File.open(filename, "w")
+  output_file = File.open(filename, 'w')
   output_file.print(data)
   output_file.close
 end
 
 def extract_filename(filename)
-  original_file = /[^\/]+\./.match(filename).to_s[0..-2]
+  %r{[^\/]+\.}.match(filename).to_s[0..-2]
 end
 
-raise StandardError, "filename required" if ARGV.empty?
+raise StandardError, 'filename required' if ARGV.empty?
+
 filename = ARGV[0]
 data = convert(filename)
 new_filename = OUTPUT_PATH + extract_filename(filename) + '.yml'
