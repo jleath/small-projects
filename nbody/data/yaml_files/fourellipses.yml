@@ -1,0 +1,417 @@
+num_planets: 69
+radius: 
+bodies:
+  -
+    x_pos: 2.50e11
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.50e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.50e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.50e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.50e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.48e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.48e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.48e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.48e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.46e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.46e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.46e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.46e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.44e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.44e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.44e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.44e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.42e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.42e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.42e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.42e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.40e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.40e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.40e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.40e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.38e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.38e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.38e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.38e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.36e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.36e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.36e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.36e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.34e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.34e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.34e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.34e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.32e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.32e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.32e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.32e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.30e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.30e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.30e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.30e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.28e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.28e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.28e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.28e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.26e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.26e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: -1.26e11
+    x_vel: 2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 0.00e00
+    y_pos: 1.26e11
+    x_vel: -2.29e04
+    y_vel: 0.00e00
+    mass: 7.45e19
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 1.24e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: -2.29e04
+    mass: 7.45e19
+  -
+    x_pos: -1.24e11
+    y_pos: 0.00e00
+    x_vel: 0.00e00
+    y_vel: 2.29e04
+    mass: 7.45e19

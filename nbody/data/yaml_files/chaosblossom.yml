@@ -1,0 +1,3609 @@
+num_planets: 601
+radius: 2.5E11
+bodies:
+  -
+    x_pos: 0.0
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 0.0
+    mass: 5.0e30
+  -
+    x_pos: 1.6666666666666667E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.6666666666666667E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.6666666666666667E9
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.6666666666666667E9
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 3.3333333333333335E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -3.3333333333333335E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 3.3333333333333335E9
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -3.3333333333333335E9
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 5.0E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -5.0E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 5.0E9
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -5.0E9
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 6.666666666666667E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -6.666666666666667E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 6.666666666666667E9
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -6.666666666666667E9
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 8.333333333333333E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -8.333333333333333E9
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 8.333333333333333E9
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -8.333333333333333E9
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.1666666666666668E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.1666666666666668E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.1666666666666668E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.1666666666666668E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.3333333333333334E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.3333333333333334E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.3333333333333334E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.3333333333333334E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.6666666666666666E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.6666666666666666E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.6666666666666666E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.6666666666666666E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.8333333333333332E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.8333333333333332E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.8333333333333332E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.8333333333333332E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.1666666666666668E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.1666666666666668E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.1666666666666668E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.1666666666666668E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.3333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.3333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.3333333333333336E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.3333333333333336E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.6666666666666668E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.6666666666666668E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.6666666666666668E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.6666666666666668E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.8333333333333332E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.8333333333333332E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.8333333333333332E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.8333333333333332E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 3.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -3.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 3.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -3.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 3.1666666666666668E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -3.1666666666666668E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 3.1666666666666668E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -3.1666666666666668E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 3.3333333333333332E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -3.3333333333333332E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 3.3333333333333332E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -3.3333333333333332E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 3.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -3.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 3.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -3.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 3.6666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -3.6666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 3.6666666666666664E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -3.6666666666666664E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 3.833333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -3.833333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 3.833333333333333E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -3.833333333333333E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 4.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -4.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 4.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -4.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 4.1666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -4.1666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 4.1666666666666664E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -4.1666666666666664E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 4.3333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -4.3333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 4.3333333333333336E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -4.3333333333333336E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 4.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -4.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 4.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -4.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 4.666666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -4.666666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 4.666666666666667E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -4.666666666666667E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 4.8333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -4.8333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 4.8333333333333336E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -4.8333333333333336E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 5.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -5.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 5.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -5.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 5.1666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -5.1666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 5.1666666666666664E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -5.1666666666666664E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 5.3333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -5.3333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 5.3333333333333336E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -5.3333333333333336E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 5.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -5.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 5.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -5.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 5.6666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -5.6666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 5.6666666666666664E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -5.6666666666666664E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 5.8333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -5.8333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 5.8333333333333336E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -5.8333333333333336E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 6.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -6.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 6.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -6.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 6.166666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -6.166666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 6.166666666666667E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -6.166666666666667E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 6.3333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -6.3333333333333336E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 6.3333333333333336E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -6.3333333333333336E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 6.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -6.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 6.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -6.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 6.6666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -6.6666666666666664E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 6.6666666666666664E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -6.6666666666666664E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 6.833333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -6.833333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 6.833333333333333E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -6.833333333333333E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 7.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -7.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 7.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -7.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 7.166666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -7.166666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 7.166666666666667E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -7.166666666666667E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 7.333333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -7.333333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 7.333333333333333E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -7.333333333333333E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 7.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -7.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 7.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -7.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 7.666666666666666E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -7.666666666666666E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 7.666666666666666E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -7.666666666666666E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 7.833333333333334E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -7.833333333333334E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 7.833333333333334E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -7.833333333333334E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 8.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -8.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 8.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -8.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 8.166666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -8.166666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 8.166666666666667E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -8.166666666666667E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 8.333333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -8.333333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 8.333333333333333E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -8.333333333333333E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 8.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -8.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 8.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -8.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 8.666666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -8.666666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 8.666666666666667E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -8.666666666666667E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 8.833333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -8.833333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 8.833333333333333E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -8.833333333333333E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 9.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -9.0E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 9.0E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -9.0E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 9.166666666666666E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -9.166666666666666E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 9.166666666666666E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -9.166666666666666E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 9.333333333333334E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -9.333333333333334E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 9.333333333333334E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -9.333333333333334E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 9.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -9.5E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 9.5E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -9.5E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 9.666666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -9.666666666666667E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 9.666666666666667E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -9.666666666666667E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 9.833333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -9.833333333333333E10
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 9.833333333333333E10
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -9.833333333333333E10
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.0E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.0E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.0E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.0E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.0166666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.0166666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.0166666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.0166666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.0333333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.0333333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.0333333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.0333333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.05E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.05E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.05E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.05E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.0666666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.0666666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.0666666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.0666666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.0833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.0833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.0833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.0833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.1E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.1E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.1E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.1E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.1166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.1166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.1166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.1166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.1333333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.1333333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.1333333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.1333333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.15E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.15E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.15E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.15E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.1666666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.1666666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.1666666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.1666666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.1833333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.1833333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.1833333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.1833333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.2E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.2E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.2E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.2E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.2166666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.2166666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.2166666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.2166666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.2333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.2333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.2333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.2333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.25E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.25E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.25E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.25E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.2666666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.2666666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.2666666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.2666666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.2833333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.2833333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.2833333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.2833333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.3E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.3E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.3E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.3E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.3166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.3166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.3166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.3166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.3333333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.3333333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.3333333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.3333333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.3500000000000002E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.3500000000000002E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.3500000000000002E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.3500000000000002E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.3666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.3666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.3666666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.3666666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.3833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.3833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.3833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.3833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.4E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.4E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.4E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.4E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.4166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.4166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.4166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.4166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.4333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.4333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.4333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.4333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.45E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.45E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.45E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.45E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.4666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.4666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.4666666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.4666666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.4833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.4833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.4833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.4833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.5E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.5E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.5E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.5E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.516666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.516666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.516666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.516666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.533333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.533333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.533333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.533333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.55E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.55E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.55E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.55E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.566666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.566666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.566666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.566666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.583333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.583333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.583333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.583333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.6E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.6E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.6E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.6E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.6166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.6166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.6166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.6166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.6333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.6333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.6333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.6333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.65E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.65E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.65E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.65E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.6666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.6666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.6666666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.6666666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.6833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.6833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.6833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.6833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.7E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.7E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.7E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.7E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.7166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.7166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.7166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.7166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.7333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.7333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.7333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.7333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.75E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.75E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.75E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.75E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.7666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.7666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.7666666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.7666666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.7833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.7833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.7833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.7833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.8E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.8E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.8E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.8E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.8166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.8166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.8166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.8166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.833333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.833333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.833333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.833333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.85E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.85E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.85E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.85E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.866666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.866666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.866666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.866666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.883333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.883333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.883333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.883333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.9E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.9E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.9E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.9E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.916666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.916666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.916666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.916666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.9333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.9333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.9333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.9333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.95E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.95E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.95E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.95E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.9666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.9666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.9666666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.9666666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 1.9833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -1.9833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 1.9833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -1.9833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.0E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.0E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.0E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.0E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.0166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.0166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.0166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.0166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.0333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.0333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.0333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.0333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.05E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.05E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.05E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.05E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.0666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.0666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.0666666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.0666666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.0833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.0833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.0833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.0833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.1E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.1E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.1E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.1E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.1166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.1166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.1166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.1166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.1333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.1333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.1333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.1333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.15E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.15E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.15E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.15E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.166666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.166666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.166666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.166666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.183333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.183333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.183333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.183333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.2E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.2E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.2E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.2E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.216666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.216666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.216666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.216666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.233333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.233333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.233333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.233333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.25E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.25E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.25E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.25E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.2666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.2666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.2666666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.2666666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.2833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.2833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.2833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.2833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.3E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.3E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.3E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.3E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.3166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.3166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.3166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.3166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.3333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.3333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.3333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.3333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.35E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.35E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.35E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.35E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.3666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.3666666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.3666666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.3666666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.3833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.3833333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.3833333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.3833333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.4E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.4E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.4E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.4E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.4166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.4166666666666666E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.4166666666666666E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.4166666666666666E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.4333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.4333333333333334E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.4333333333333334E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.4333333333333334E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.45E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.45E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.45E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.45E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.466666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.466666666666667E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.466666666666667E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.466666666666667E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.483333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.483333333333333E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.483333333333333E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.483333333333333E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 2.5E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: -20000.0
+    mass: 2.0E10
+  -
+    x_pos: -2.5E11
+    y_pos: 0.0
+    x_vel: 0.0
+    y_vel: 20000.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: 2.5E11
+    x_vel: 20000.0
+    y_vel: 0.0
+    mass: 2.0E10
+  -
+    x_pos: 0.0
+    y_pos: -2.5E11
+    x_vel: -20000.0
+    y_vel: 0.0
+    mass: 2.0E10

@@ -1,0 +1,15 @@
+num_planets: 2
+radius: 5.0e10
+bodies:
+  -
+    x_pos: 0.0e00
+    y_pos: 4.5e10
+    x_vel: 1.0e04
+    y_vel: 0.0e00
+    mass: 1.5e30
+  -
+    x_pos: 0.0e00
+    y_pos: -4.5e10
+    x_vel: -1.0e04
+    y_vel: 0.0e00
+    mass: 1.5e30

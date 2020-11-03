@@ -1,0 +1,57 @@
+num_planets: 9
+radius: 2.50e11
+bodies:
+  -
+    x_pos: 1.496e11
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: 2.980e04
+    mass: 5.974e24
+  -
+    x_pos: -1.496e11
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: 2.980e04
+    mass: 5.974e24
+  -
+    x_pos: 0.000e00
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: 0.000e00
+    mass: 1.989e30
+  -
+    x_pos: -1.082e11
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: 3.500e04
+    mass: 4.869e24
+  -
+    x_pos: 1.082e11
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: 3.500e04
+    mass: 4.869e24
+  -
+    x_pos: 2.279e11
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: 2.410e04
+    mass: 6.419e23
+  -
+    x_pos: -2.279e11
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: 2.410e04
+    mass: 6.419e23
+  -
+    x_pos: 0.000e00
+    y_pos: 2.279e11
+    x_vel: 2.410e04
+    y_vel: 0.000e00
+    mass: 6.419e23
+  -
+    x_pos: 0.000e00
+    y_pos: -2.279e11
+    x_vel: -2.410e04
+    y_vel: 0.000e00
+    mass: 6.419e23

@@ -1,0 +1,861 @@
+num_planets: 143
+radius: 6.00e12
+bodies:
+  -
+    x_pos: 5.5e12
+    y_pos: 3.75e12
+    x_vel: 0.000e00
+    y_vel: -1.000e02
+    mass: 1.989e35
+  -
+    x_pos: -5.5e12
+    y_pos: -3.75e12
+    x_vel: 0.000e00
+    y_vel: 1.000e02
+    mass: 1.989e35
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 5.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 6.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 7.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 8.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 9.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 10.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 11.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 4.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 3.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 2.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 1.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 0.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 0.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: -0.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -1.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -2.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -3.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -4.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -5.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -6.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -7.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -8.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -9.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -10.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -11.0e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: 5.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 6.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 7.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 8.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 9.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 10.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 11.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 4.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 3.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 2.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 1.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: -1.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -2.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -3.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -4.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -5.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -6.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -7.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -8.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -9.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -10.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -11.5e12
+    y_pos: 0.000e00
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 5.0e12
+    y_pos: 1.0e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 6.0e12
+    y_pos: 1.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 7.0e12
+    y_pos: 1.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 8.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 9.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 10.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 11.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 4.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 3.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 2.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 1.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 0.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 0.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: -0.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -1.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -2.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -3.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -4.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -5.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -6.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -7.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -8.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -9.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -10.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -11.0e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: 5.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 6.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 7.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 8.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 9.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 10.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 11.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 4.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 3.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 2.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 1.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: -1.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -2.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -3.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -4.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -5.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -6.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -7.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -8.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -9.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -10.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -11.5e12
+    y_pos: 01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: 
+    y_pos: 
+    x_vel: 
+    y_vel: 
+    mass: 
+  -
+    x_pos: 5.0e12
+    y_pos: -1.0e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 6.0e12
+    y_pos: -1.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 7.0e12
+    y_pos: -1.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 8.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 9.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 10.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 11.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 4.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 3.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 2.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 1.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 0.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 0.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: -0.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -1.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -2.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -3.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -4.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -5.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -6.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -7.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -8.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -9.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -10.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -11.0e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: 5.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 6.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 7.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 8.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 9.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 10.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 11.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 4.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 3.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 2.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: 1.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: 1.314e17
+  -
+    x_pos: -1.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -2.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -3.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -4.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -5.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -6.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -7.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
+  -
+    x_pos: -8.5e12
+    y_pos: -01.000e12
+    x_vel: 1.000e05
+    y_vel: 4.737e04
+    mass: -1.314e17
