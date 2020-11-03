@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# A body in an n-body simulation
 class Body
   G = 6.67e-11
   attr_accessor :x_pos, :y_pos, :x_vel, :y_vel
