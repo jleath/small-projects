@@ -2,12 +2,6 @@ num_planets: 69
 radius: 
 bodies:
   -
-    x_pos: 2.50e11
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
-  -
     x_pos: 1.50e11
     y_pos: 0.00e00
     x_vel: 0.00e00
@@ -415,3 +409,9 @@ bodies:
     x_vel: -1.00e04
     y_vel: -2.286e4
     mass: 5.50e20
+  -
+    x_pos: 0.000e00
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: 0.000e00
+    mass: 5.974e30

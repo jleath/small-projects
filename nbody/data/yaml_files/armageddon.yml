@@ -301,3 +301,15 @@ bodies:
     x_vel: -7.08E+03
     y_vel: -1.82E+04
     mass: 6.760E+12
+  -
+    x_pos: 3.39E+11
+    y_pos: 8.17E+10
+    x_vel: -4.56E+03
+    y_vel: 1.89E+04
+    mass: 1.760E+12
+  -
+    x_pos: -1.97E+11
+    y_pos: -2.82E+11
+    x_vel: 1.60E+04
+    y_vel: -1.12E+04
+    mass: 4.020E+12

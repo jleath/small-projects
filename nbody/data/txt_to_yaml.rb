@@ -1,10 +1,31 @@
 # frozen_string_literal: true
 
+FLOAT_REGEX = /^\s*[+-]?((\d+_?)*\d+(\.(\d+_?)*\d+)?|\.(\d+_?)*\d+)(\s*|([eE][+-]?(\d+_?)*\d+)\s*)$/.freeze
+NUM_BODIES_LINE_NO = 0
+RADIUS_LINE_NO = 1
+X_POSITION_INDEX = 0
+Y_POSITION_INDEX = 1
+X_VELOCITY_INDEX = 2
+Y_VELOCITY_INDEX = 3
+MASS_INDEX = 4
+OUTPUT_PATH = './yaml_files/'
+BODY_READ_ERR_MSG = 'Number of bodies read does not match file header'
+
 class Body
   attr_accessor :x_pos, :y_pos, :x_vel, :y_vel, :mass
   def to_s
     "  -\n    x_pos: #{x_pos}\n    y_pos: #{y_pos}\n" \
     "    x_vel: #{x_vel}\n    y_vel: #{y_vel}\n    mass: #{mass}\n"
+  end
+
+  def valid?
+    [x_pos, y_pos, x_vel, y_vel, mass].reject { |val| valid_float?(val) }.empty?
+  end
+
+  private
+
+  def valid_float?(value)
+    !!(value =~ FLOAT_REGEX)
   end
 end
 
@@ -18,17 +39,11 @@ class DataBlob
     end
     output_str
   end
-end
 
-NUM_BODIES_LINE_NO = 0
-RADIUS_LINE_NO = 1
-START_OF_BODIES_LINE_NO = 2
-X_POSITION_INDEX = 0
-Y_POSITION_INDEX = 1
-X_VELOCITY_INDEX = 2
-Y_VELOCITY_INDEX = 3
-MASS_INDEX = 4
-OUTPUT_PATH = './yaml_files/'
+  def valid?
+    num_planets == bodies.size.to_s
+  end
+end
 
 def convert(filename)
   lines = File.open(filename).readlines
@@ -36,23 +51,12 @@ def convert(filename)
 
   data.num_planets = read_num_planets(lines)
   data.radius = read_radius(lines)
-  data.bodies = read_bodies(lines, data.num_planets.to_i)
+  data.bodies = read_bodies(lines)
   data
 end
 
-def read_bodies(text_lines, num_bodies)
-  bodies = []
-  bodies_read = 0
-  index = 0
-  while bodies_read < num_bodies
-    body_properties = text_lines[index + START_OF_BODIES_LINE_NO].split
-    unless body_properties.empty?
-      bodies << read_body(body_properties) unless body_properties.empty?
-      bodies_read += 1
-      end
-    index += 1
-  end
-  bodies
+def read_bodies(data)
+  data.map(&:split).map { |line| read_body(line) }.select(&:valid?)
 end
 
 def read_body(line)
@@ -73,7 +77,7 @@ def read_radius(text_lines)
   text_lines[RADIUS_LINE_NO].strip
 end
 
-def output(data, filename)
+def write_to_file(data, filename)
   output_file = File.open(filename, 'w')
   output_file.print(data)
   output_file.close
@@ -83,9 +87,16 @@ def extract_filename(filename)
   %r{[^\/]+\.}.match(filename).to_s[0..-2]
 end
 
-raise StandardError, 'filename required' if ARGV.empty?
+def report_error(data, filename)
+  expected = data.num_planets
+  actual = data.bodies.size
+  output = "Error in file #{filename}: "
+  output += BODY_READ_ERR_MSG + " - expected #{expected}, actual #{actual}"
+  puts "Warning: #{output}"
+end
 
 filename = ARGV[0]
 data = convert(filename)
+report_error(data, filename) unless data.valid?
 new_filename = OUTPUT_PATH + extract_filename(filename) + '.yml'
-output(data, new_filename)
+write_to_file(data, new_filename)
