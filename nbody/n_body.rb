@@ -10,8 +10,8 @@ class NBody
     @time = sim_time
     @update_rate = update_rate
     universe_info = YAML.load_file(init_file)
-    num_bodies = universe_info['num_planets']
-    @radius = universe_info['radius']
+    num_bodies = universe_info['num_planets'].to_i
+    @radius = universe_info['radius'].to_f
     body_data = universe_info['bodies']
     @bodies = (0...num_bodies).map { |index| read_body(body_data[index]) }
   end
