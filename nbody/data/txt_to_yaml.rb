@@ -42,9 +42,15 @@ end
 
 def read_bodies(text_lines, num_bodies)
   bodies = []
-  num_bodies.times do |index|
+  bodies_read = 0
+  index = 0
+  while bodies_read < num_bodies
     body_properties = text_lines[index + START_OF_BODIES_LINE_NO].split
-    bodies << read_body(body_properties)
+    unless body_properties.empty?
+      bodies << read_body(body_properties) unless body_properties.empty?
+      bodies_read += 1
+      end
+    index += 1
   end
   bodies
 end

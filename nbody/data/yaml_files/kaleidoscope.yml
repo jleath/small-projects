@@ -2,23 +2,11 @@ num_planets: 25
 radius: 2.50e11
 bodies:
   -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
-  -
     x_pos: 0.000e00
     y_pos: 0.000e00
     x_vel: 0.000e00
     y_vel: 0.000e00
     mass: 1.989e30
-  -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
   -
     x_pos: 1.500e11
     y_pos: 0.000e00
@@ -68,12 +56,6 @@ bodies:
     y_vel: -7.283e03
     mass: 7.350e22
   -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
-  -
     x_pos: 1.000e11
     y_pos: 0.000e00
     x_vel: 0.000e00
@@ -122,12 +104,6 @@ bodies:
     y_vel: 1.435e04
     mass: 7.350e22
   -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
-  -
     x_pos: 2.279e11
     y_pos: 0.000e00
     x_vel: 0.000e00
@@ -150,4 +126,28 @@ bodies:
     y_pos: -2.279e11
     x_vel: 2.410e04
     y_vel: 0.000e00
+    mass: 6.419e23
+  -
+    x_pos: 1.610e11
+    y_pos: 1.610e11
+    x_vel: 1.700e04
+    y_vel: -1.700e04
+    mass: 6.419e23
+  -
+    x_pos: -1.610e11
+    y_pos: -1.610e11
+    x_vel: -1.700e04
+    y_vel: 1.700e04
+    mass: 6.419e23
+  -
+    x_pos: -1.610e11
+    y_pos: 1.610e11
+    x_vel: 1.700e04
+    y_vel: 1.700e04
+    mass: 6.419e23
+  -
+    x_pos: 1.610e11
+    y_pos: -1.610e11
+    x_vel: -1.700e04
+    y_vel: -1.700e04
     mass: 6.419e23

@@ -1,6 +1,14 @@
 require 'ruby2d'
 load 'n_body.rb'
 
+TIME_ARG_INDEX = 0
+FILENAME_ARG_INDEX = 1
+ARG_ERROR_MSG = "Invalid Arguments:\n\t-- USAGE [time] [filename]"
+TIME_DELTA = 25000
+WINDOW_TITLE = "NBody Simulation"
+WINDOW_WIDTH = 1600
+WINDOW_HEIGHT = 900
+
 def calc_window_position(body, radius, window_width, window_height)
   diameter = radius * 2.0
   half_width = window_width / 2.0
@@ -11,49 +19,33 @@ def calc_window_position(body, radius, window_width, window_height)
   [x_pos, y_pos]
 end
 
-TIME_ARG_INDEX = 0
-FILENAME_ARG_INDEX = 1
-ARG_ERROR_MSG = "Invalid Arguments:\n\t-- USAGE [time] [filename]"
-TIME_DELTA = 25000
-WINDOW_TITLE = "NBody Simulation"
-
 raise StandardError, ARG_ERROR_MSG if ARGV.size != 2
 
 time = ARGV[TIME_ARG_INDEX].to_f
-puts time
 update_rate = (time / 1000.0) * 60.0
 filename = ARGV[FILENAME_ARG_INDEX]
-
 nbody = NBody.new(time, update_rate, filename)
 
 set title: WINDOW_TITLE + " - #{filename}"
-
+set width: WINDOW_WIDTH, height: WINDOW_HEIGHT 
 window_width = get :width
 window_height = get :height
 elapsed = 0.0
 max_mass = nbody.bodies.map { |body| body.mass }.max
-puts max_mass
 
 # create body sprites
 body_sprites = nbody.bodies.map do |body|
   x, y = calc_window_position(body, nbody.radius.to_f, window_width, window_height)
-  puts body.mass.to_f / max_mass
-  radius = (body.mass.to_f / max_mass) * 20.0
-  Circle.new(x: x, y: y, radius: 10, color: 'random')
+  body_radius = 10 + ((body.mass / max_mass) * 10.0)
+  Circle.new(x: x, y: y, radius: body_radius, color: 'random')
 end
 
 update do
   if elapsed > time then close end
 
-  x_forces = []
-  y_forces = []
-  nbody.bodies.each_with_index do |body, index|
-    x_forces[index] = body.net_force_exerted_by_x(nbody.bodies)
-    y_forces[index] = body.net_force_exerted_by_y(nbody.bodies)
-  end
+    nbody.update_bodies(TIME_DELTA)
 
   nbody.bodies.each_with_index do |body, index|
-    body.update(TIME_DELTA, x_forces[index], y_forces[index])
     x, y = calc_window_position(body, nbody.radius.to_f, window_width, window_height)
     body_sprites[index].x = x
     body_sprites[index].y = y

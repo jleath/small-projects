@@ -16,6 +16,15 @@ class NBody
     @bodies = (0...num_bodies).map { |index| read_body(body_data[index]) }
   end
 
+  def update_bodies(time_delta)
+    x_forces = bodies.map { |body| body.net_force_exerted_by_x(bodies) }
+    y_forces = bodies.map { |body| body.net_force_exerted_by_y(bodies) }
+
+    bodies.each_with_index do |body, index|
+      body.update(time_delta, x_forces[index], y_forces[index])
+    end
+  end
+
   def num_bodies
     bodies.size
   end

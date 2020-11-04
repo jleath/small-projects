@@ -44,12 +44,6 @@ bodies:
     y_vel: 1.307e04
     mass: 1.8986e27
   -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
-  -
     x_pos: -2.58E+11
     y_pos: -2.33E+11
     x_vel: 1.31E+04
@@ -301,3 +295,9 @@ bodies:
     x_vel: 1.13E+04
     y_vel: -1.59E+04
     mass: 5.630E+12
+  -
+    x_pos: -3.22E+11
+    y_pos: 1.26E+11
+    x_vel: -7.08E+03
+    y_vel: -1.82E+04
+    mass: 6.760E+12

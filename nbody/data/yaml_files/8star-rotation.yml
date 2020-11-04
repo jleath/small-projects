@@ -2,12 +2,6 @@ num_planets: 8
 radius: 22e10
 bodies:
   -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
-  -
     x_pos: 6.85e10
     y_pos: 0
     x_vel: 0
@@ -48,4 +42,10 @@ bodies:
     y_pos: 0
     x_vel: 0
     y_vel: 11e3
+    mass: 5e29
+  -
+    x_pos: -13.125e10
+    y_pos: 0
+    x_vel: 0
+    y_vel: 81e3
     mass: 5e29

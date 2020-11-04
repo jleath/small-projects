@@ -32,12 +32,6 @@ bodies:
     y_vel: 0.000e00
     mass: 4.869e24
   -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
-  -
     x_pos: 2.20e11
     y_pos: 2.20e11
     x_vel: 0.000e00
@@ -62,12 +56,6 @@ bodies:
     y_vel: 0.000e00
     mass: 4.869e24
   -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
-  -
     x_pos: 1.10e11
     y_pos: 1.10e11
     x_vel: 0.000e00
@@ -91,15 +79,27 @@ bodies:
     x_vel: 2.000e04
     y_vel: 0.000e00
     mass: 4.869e24
-  -
-    x_pos: 
-    y_pos: 
-    x_vel: 
-    y_vel: 
-    mass: 
   -
     x_pos: 1.10e11
     y_pos: 0.000e00
     x_vel: 0.000e00
     y_vel: 2.000e04
     mass: 5.974e24
+  -
+    x_pos: 0.000e00
+    y_pos: 1.10e11
+    x_vel: -2.000e004
+    y_vel: 0.000e00
+    mass: 6.419e23
+  -
+    x_pos: -1.10e11
+    y_pos: 0.000e00
+    x_vel: 0.000e00
+    y_vel: -2.000e04
+    mass: 3.302e23
+  -
+    x_pos: 0.000e00
+    y_pos: -1.10e11
+    x_vel: 2.000e04
+    y_vel: 0.000e00
+    mass: 4.869e24
