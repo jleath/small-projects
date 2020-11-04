@@ -4,11 +4,9 @@ require 'yaml'
 load 'body.rb'
 
 class NBody
-  attr_reader :radius, :bodies, :time, :update_rate
+  attr_reader :radius, :bodies, :time
 
-  def initialize(sim_time, update_rate, init_file)
-    @time = sim_time
-    @update_rate = update_rate
+  def initialize(init_file)
     universe_info = YAML.load_file(init_file)
     num_bodies = universe_info['num_planets'].to_i
     @radius = universe_info['radius'].to_f
@@ -30,8 +28,7 @@ class NBody
   end
 
   def to_s
-    output_str = "time -> #{time}\nupdate_rate -> " \
-                 "#{update_rate}\nradius -> #{radius}\nbodies:\n"
+    output_str = "radius -> #{radius}\nbodies:\n" 
     bodies.each do |body|
       output_str += body.to_s + "\n"
     end
