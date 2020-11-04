@@ -10,6 +10,8 @@ TIME_DELTA = 25_000
 WINDOW_TITLE = 'NBody Simulation'
 WINDOW_WIDTH = 1600
 WINDOW_HEIGHT = 900
+MIN_RADIUS = 2.0
+RADIUS_SCALE_FACTOR = 20.0
 
 def window_position(body, radius, window_width, window_height)
   diameter = radius * 2.0
@@ -19,6 +21,10 @@ def window_position(body, radius, window_width, window_height)
   x_pos = (window_width * (body.x_pos / diameter))  + half_width
   y_pos = (window_height * (body.y_pos / diameter)) + half_height
   [x_pos, y_pos]
+end
+
+def body_radius(mass, max_mass)
+  MIN_RADIUS + ((mass / max_mass) * RADIUS_SCALE_FACTOR)
 end
 
 # Check and retrieve arguments
@@ -39,8 +45,8 @@ window_height = get :height
 max_mass = nbody.bodies.max_by(&:mass).mass
 body_sprites = nbody.bodies.map do |body|
   x, y = window_position(body, nbody.radius.to_f, window_width, window_height)
-  body_radius = 2 + ((body.mass / max_mass) * 20.0)
-  Circle.new(x: x, y: y, radius: body_radius, color: 'random')
+  radius = body_radius(body.mass, max_mass)
+  Circle.new(x: x, y: y, radius: radius, color: 'random')
 end
 
 # game loop
