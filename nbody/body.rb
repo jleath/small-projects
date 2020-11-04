@@ -19,8 +19,13 @@ class Body
   end
 
   def update(time_delta, x_force, y_force)
+    puts "x_force->#{x_force}"
+    puts "mass->#{mass}"
     x_acceleration = x_force / mass
     y_acceleration = y_force / mass
+    puts "x_acceleration->#{x_acceleration}"
+    puts "time_delta->#{time_delta}"
+    puts "x_vel->#{@x_vel}"
     @x_vel += (time_delta * x_acceleration)
     @y_vel += (time_delta * y_acceleration)
     @x_pos += (time_delta * @x_vel)
@@ -28,11 +33,11 @@ class Body
   end
 
   def net_force_exerted_by_x(bodies)
-    bodies.reduce(0.0) { |net_force, body| net_force + force_exerted_by_x(body) }
+    bodies.reduce(0.0) { |net_force, body| equal?(body) ? net_force : net_force + force_exerted_by_x(body) }
   end
 
   def net_force_exerted_by_y(bodies)
-    bodies.reduce(0.0) { |net_force, body| net_force + force_exerted_by_y(body) }
+    bodies.reduce(0.0) { |net_force, body| equal?(body) ? net_force : net_force + force_exerted_by_y(body) }
   end
 
   def to_s

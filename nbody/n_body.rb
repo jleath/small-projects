@@ -3,8 +3,6 @@
 require 'yaml'
 load 'body.rb'
 
-ARG_ERROR_MSG = "Invalid Arguments:\n\t-- USAGE [T] [dt] [filename]"
-
 class NBody
   attr_reader :radius, :bodies, :time, :update_rate
 
@@ -38,7 +36,3 @@ class NBody
              body_info['y_vel'], body_info['mass'])
   end
 end
-
-raise StandardError, ARG_ERROR_MSG if ARGV.size != 3
-
-puts NBody.new(ARGV[0], ARGV[1], ARGV[2])
