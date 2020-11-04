@@ -31,15 +31,18 @@ set title: WINDOW_TITLE + " - #{filename}"
 window_width = get :width
 window_height = get :height
 elapsed = 0.0
+max_mass = nbody.bodies.map { |body| body.mass }.max
+puts max_mass
 
 # create body sprites
 body_sprites = nbody.bodies.map do |body|
   x, y = calc_window_position(body, nbody.radius.to_f, window_width, window_height)
+  puts body.mass.to_f / max_mass
+  radius = (body.mass.to_f / max_mass) * 20.0
   Circle.new(x: x, y: y, radius: 10, color: 'random')
 end
 
 update do
-  t = Time.now
   if elapsed > time then close end
 
   x_forces = []
@@ -52,13 +55,8 @@ update do
   nbody.bodies.each_with_index do |body, index|
     body.update(TIME_DELTA, x_forces[index], y_forces[index])
     x, y = calc_window_position(body, nbody.radius.to_f, window_width, window_height)
-    puts "#{index}: x->#{x} y->#{y}"
     body_sprites[index].x = x
     body_sprites[index].y = y
-  end
-  frame_time = Time.now - t
-  if frame_time < (1.0 / 60.0)
-    #sleep((1.0 / 60.0) - frame_time)
   end
   elapsed += TIME_DELTA
 end

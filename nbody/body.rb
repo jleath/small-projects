@@ -19,13 +19,8 @@ class Body
   end
 
   def update(time_delta, x_force, y_force)
-    puts "x_force->#{x_force}"
-    puts "mass->#{mass}"
     x_acceleration = x_force / mass
     y_acceleration = y_force / mass
-    puts "x_acceleration->#{x_acceleration}"
-    puts "time_delta->#{time_delta}"
-    puts "x_vel->#{@x_vel}"
     @x_vel += (time_delta * x_acceleration)
     @y_vel += (time_delta * y_acceleration)
     @x_pos += (time_delta * @x_vel)
