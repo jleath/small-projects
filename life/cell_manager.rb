@@ -29,6 +29,13 @@ class CellManager
     @largest_y = y if y > @largest_y
     @smallest_x = x if x < @smallest_x
     @smallest_y = y if y < @smallest_y
+    puts "(#{x}, #{y})"
+  end
+  
+  def shift_cells(shift)
+    cells = active_cells.map { |cell| [cell.first + shift, cell.last + shift] }
+    @live_cells = Hash.new { |hash, key| hash[key] = Set.new }
+    cells.each { |cell| activate_cell(*cell) }
   end
 
   def deactivate_cell(x, y)
