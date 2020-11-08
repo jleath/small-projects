@@ -3,10 +3,6 @@ require 'set'
 class CellManager
   def initialize
     @live_cells = Hash.new { |hash, key| hash[key] = Set.new }
-    @largest_y = 0
-    @largest_x = 0
-    @smallest_x = 0
-    @smallest_y = 0
   end
 
   def update
@@ -25,11 +21,6 @@ class CellManager
 
   def activate_cell(x, y)
     @live_cells[x].add(y)
-    @largest_x = x if x > @largest_x
-    @largest_y = y if y > @largest_y
-    @smallest_x = x if x < @smallest_x
-    @smallest_y = y if y < @smallest_y
-    puts "(#{x}, #{y})"
   end
   
   def shift_cells(shift)
@@ -55,22 +46,6 @@ class CellManager
       end
     end
     cells
-  end
-
-  def to_a
-    result = []
-    (@smallest_y..@largest_y).each do |y|
-      result << []
-      (@smallest_x..@largest_x).each do |x|
-        result[y][x] = active_cell?(x, y) ? '#' : '-'
-      end
-    end
-    result
-  end
-
-  def print
-    to_a.each { |row| puts row.join('') }
-    puts ''
   end
 
   def check_cell(cell)

@@ -8,7 +8,7 @@ FILENAME_ARG_INDEX = 1
 ARG_ERROR_MSG = "Invalid Arguments:\n\t-- USAGE [time] [filename]"
 TIME_DELTA = 25_000.0
 WINDOW_TITLE = 'NBody Simulation'
-WINDOW_WIDTH = 1600
+viewport.width = 1600
 WINDOW_HEIGHT = 900
 MIN_RADIUS = 2.0
 RADIUS_SCALE_FACTOR = 20.0
@@ -16,9 +16,9 @@ DESIRED_REFRESH = 1.0 / 60.0
 
 def window_position(body, radius)
   diameter = radius * 2.0
-  half_width = WINDOW_WIDTH / 2.0
+  half_width = viewport.width / 2.0
   half_height = WINDOW_HEIGHT / 2.0
-  x_pos = (WINDOW_WIDTH * (body.x_pos / diameter))  + half_width
+  x_pos = (viewport.width * (body.x_pos / diameter))  + half_width
   y_pos = (WINDOW_HEIGHT * (body.y_pos / diameter)) + half_height
   [x_pos, y_pos]
 end
@@ -40,7 +40,7 @@ nbody = NBody.new(filename)
 
 # Prep viewport
 set title: WINDOW_TITLE + " - #{filename}"
-set width: WINDOW_WIDTH, height: WINDOW_HEIGHT
+set width: viewport.width, height: WINDOW_HEIGHT
 
 # create body sprites
 max_mass = nbody.bodies.max_by(&:mass).mass
